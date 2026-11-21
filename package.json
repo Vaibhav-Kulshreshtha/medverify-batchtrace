@@ -1,0 +1,33 @@
+{
+  "name": "medverify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "On-device medicine pack screening against a versioned selection of Indian published alerts.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4178 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4178 --strictPort",
+    "test": "node --test tests/*.test.*",
+    "test:e2e": "node tests/browser.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "0.475.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "playwright-core": "1.56.1",
+    "typescript": "5.9.3",
+    "vite": "5.4.21"
+  },
+  "overrides": {
+    "rollup": "4.67.4"
+  }
+}

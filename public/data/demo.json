@@ -1,0 +1,35 @@
+{
+  "kind": "demo",
+  "available": true,
+  "snapshotDate": "2026-11-20",
+  "notices": [
+    {
+      "id": "DEMO-01",
+      "title": "Fictional training notice — Velmora Tablets",
+      "authority": "MedVerify demonstration collection (fictional)",
+      "date": "2026-11-01",
+      "url": "/data/demo-notice.html"
+    }
+  ],
+  "records": [
+    {
+      "noticeId": "DEMO-01",
+      "page": 1,
+      "row": 1,
+      "classification": "Fictional quality alert",
+      "product": "Velmora Tablets",
+      "strength": "25 mg",
+      "manufacturer": "Lumen Vale Labs",
+      "batch": "00742A",
+      "mfg": "01/2025",
+      "expiry": "12/2028",
+      "normalized": {
+        "product": "velmora tablets",
+        "strength": "25mg",
+        "manufacturer": "lumen vale labs",
+        "batch": "00742A"
+      }
+    }
+  ],
+  "coverageNote": "One fictional training notice and one fictional batch. For demo packs only."
+}

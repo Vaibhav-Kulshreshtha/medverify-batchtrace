@@ -1,0 +1,96 @@
+{
+  "kind": "official",
+  "available": true,
+  "snapshotDate": "2026-11-20",
+  "version": "2026-11-20.1",
+  "indexUrl": "https://www.cdsco.gov.in/opencms/opencms/en/Notifications/Alerts/",
+  "coverageNote": "Three selected rows from two March 2025 CDSCO notices, published 18 April 2025. Other rows, state lists and later notices are outside this snapshot.",
+  "notices": [
+    {
+      "id": "cdsco-2025-03-central-nsq",
+      "title": "A. NOT OF STANDARD QUALITY (NSQ) ALERT FOR THE MONTH OF MARCH-2025 (CDSCO/Central Laboratories)",
+      "authority": "Central Drugs Standard Control Organization (CDSCO)",
+      "date": "2025-04-18",
+      "url": "https://www.cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/NSQ%20Alert%20For%20The%20Month%20of%20March-2025.pdf",
+      "sha256": "55187790a0bec8596a6275fc05433a52a8adbe98cf46e524f40132833c238fae",
+      "localPdf": "/data/notices/cdsco-2025-03-central-nsq.pdf"
+    },
+    {
+      "id": "cdsco-2025-03-spurious",
+      "title": "List of Drugs, Medical Devices, Vaccine and Cosmetics declared as Spurious for the Month of March- 2025",
+      "authority": "Central Drugs Standard Control Organization (CDSCO)",
+      "date": "2025-04-18",
+      "url": "https://www.cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/mdmar25.pdf",
+      "sha256": "34d18af4c554787c9453ba804dad871ce9b139b7c08df54cdce3ebed8fd4c18d",
+      "localPdf": "/data/notices/cdsco-2025-03-spurious.pdf"
+    }
+  ],
+  "records": [
+    {
+      "noticeId": "cdsco-2025-03-central-nsq",
+      "page": "1",
+      "row": "2",
+      "classification": "Not of Standard Quality (NSQ)",
+      "product": "Pantoshang-40",
+      "printedProduct": "Pantoprazole Gastro-Resistant Tablets IP (Pantoshang-40)",
+      "strength": "",
+      "manufacturer": "Shangrila Industries (P) Ltd.",
+      "printedManufacturer": "M/s. Shangrila Industries (P) Ltd., (Pharma Division) Mining Rangpo East Sikkim-737132",
+      "batch": "SP240165",
+      "mfg": "06/2024",
+      "expiry": "05/2026",
+      "reason": "Dissolution (Buffer Stage)",
+      "laboratory": "CDL, Kolkata",
+      "normalized": {
+        "product": "pantoshang-40",
+        "strength": "",
+        "manufacturer": "shangrila industries (p) ltd.",
+        "batch": "SP240165"
+      }
+    },
+    {
+      "noticeId": "cdsco-2025-03-central-nsq",
+      "page": "1",
+      "row": "3",
+      "classification": "Not of Standard Quality (NSQ)",
+      "product": "Pantoprazole tablets IP",
+      "printedProduct": "Pantoprazole tablets IP 40 mg",
+      "strength": "40 mg",
+      "manufacturer": "Hindustan Antibiotics Ltd.",
+      "printedManufacturer": "M/s. Hindustan Antibiotics Ltd., Pimpri, Pune-411018, INDIA",
+      "batch": "0081",
+      "mfg": "05/2024",
+      "expiry": "04/2026",
+      "reason": "Dissolution (Buffer Stage)",
+      "laboratory": "CDL, Kolkata",
+      "normalized": {
+        "product": "pantoprazole tablets ip",
+        "strength": "40mg",
+        "manufacturer": "hindustan antibiotics ltd.",
+        "batch": "0081"
+      }
+    },
+    {
+      "noticeId": "cdsco-2025-03-spurious",
+      "page": "1",
+      "row": "1",
+      "classification": "Spurious",
+      "product": "Telma 40",
+      "printedProduct": "Telma 40 (Telmisartan Tab I.P. 40mg)",
+      "strength": "40mg",
+      "manufacturer": "",
+      "printedManufacturer": "Under Investigation",
+      "batch": "5240226",
+      "mfg": "Feb-24",
+      "expiry": "Jan-27",
+      "reason": "Does not Conform to I.P.",
+      "remarks": "CDSCO describes the product as purported to be spurious, subject to the outcome of investigation.",
+      "normalized": {
+        "product": "telma 40",
+        "strength": "40mg",
+        "manufacturer": "",
+        "batch": "5240226"
+      }
+    }
+  ]
+}
